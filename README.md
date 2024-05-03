@@ -8,68 +8,19 @@ Block App is a Node.js application for managing blocks. It provides CRUD functio
 ## Table of Contents
 
 - [Features](#features)
+- [Testing with Postman](#TestingwithPostman)
+- [API Versioning](#APIVersioning)
+- [Compulsory Route](#CompulsoryRoute)
 - [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
+
+  
 ## Features
 
 - **Create Block**: Users can create new blocks with a title, description, and date.
 - **Read Block**: Users can view details of existing blocks.
 - **Update Block**: Users can edit title, description, or date of existing blocks.
 - **Delete Block**: Users can remove blocks from the system.
-
-## Installation
-
-Follow these steps to set up the Block App on your local machine:
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/dev-Nikhil/block-app.git
-
-   cd block-app
-
-
-## API Versioning
-
-The Block App follows API versioning to manage changes and updates to the API endpoints. Currently, the following API version is supported:
-
-- **Version 1 (v1)**: This is the initial version of the API.
-
-To access the API endpoints for version 1, prepend `/api/v1` to the route paths. For example:
-
-- `/api/v1/blocks`: Retrieve all blocks for version 1 of the API.
-- `/api/v1/blocks/:id`: Retrieve a specific block by ID for version 1 of the API.
-- `/api/v1/users`: Access user-related endpoints for version 1 of the API.
-
-## Compulsory Route
-
-The following route is compulsory for all API versions:
-
-- **Health Check Route**: 
-
-  - **GET /api/health**: Check the health status of the API. This route is always available and does not require authentication.
-
-  Example Usage:
-  ```bash
-  curl -X GET http://localhost:3000/api/health
-
-
-
-
-
-
-
-
-
-
-
-
-   
 
 
 ## Testing with Postman
